@@ -1,0 +1,16 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql:///xdb
+  redis:
+    port: 6379
+    host: localhost
+
+logging:
+  level:
+    com.postvapor: debug
+
